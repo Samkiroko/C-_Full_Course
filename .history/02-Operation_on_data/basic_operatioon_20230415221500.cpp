@@ -15,7 +15,7 @@ int main()
   cout << "result : " << result << endl;
 
   // Substraction
-  result = number1 - number2;
+  result = number1 * number2;
   cout << "result : " << result << endl;
 
   // Divison

@@ -1,0 +1,25 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "out": true,
+    "**/*.pyc": true,
+    ".nyc_output": true,
+    "obj": true,
+    "bin": true,
+    "**/__pycache__": true,
+    "**/node_modules": true,
+    ".vscode-test": true,
+    ".vscode test": true,
+    "**/.mypy_cache/**": true,
+       "**/*.exe": true,
+    "**/*.out": true,
+    "**/*.o": true,
+    "**/.ropeproject/**": true
+  },
+  "explorerExclude.backup": {}
+}
