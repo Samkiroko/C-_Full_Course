@@ -49,5 +49,16 @@ int main()
   //   cout << "I love c++ " << endl;
   //   ++i;
   // }
-  pay_less();
+  // pay_less();
+
+  unsigned int COUNT{100};
+
+  do
+  {
+    if (COUNT % 19 == 0)
+      cout << COUNT << " ";
+    ++COUNT;
+  } while (COUNT < 1001);
+
+  return 0;
 }
