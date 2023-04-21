@@ -59,7 +59,7 @@ int main()
   */
 
   // Can't safely print out arrays other than those of characters
-  int numbers[]{1, 2, 3, 4, 5};
+  int numbers(){1, 2, 3, 4, 5};
   std::cout << "numbers :  " << numbers << std::endl;
 
   return 0;
