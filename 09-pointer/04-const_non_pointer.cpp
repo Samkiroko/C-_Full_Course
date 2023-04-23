@@ -33,10 +33,15 @@ int main()
 
   // General reference
   int var1{33};
-  int *p_var2{&var1};
-  const int *p_var3{&var1};
-  const int *const p_var4{&var1};
-  int *const p_number7{&number7};
+  int *p_var2{&var1};             // Non const pointer to int
+  const int *p_var3{&var1};       // pointer to const
+  const int *const p_var4{&var1}; // Const pointer to const data
+  int *const p_number7{&number7}; // const pointer to non const data
+
+  /*
+  ? if const shows up on the left of * : data is const
+  ? if const show up on the right of * : the pointer is const
+  */
 
   return 0;
 }
